@@ -15,3 +15,5 @@ CommentRouter.put("/comment", CommentController.updateComment);
 
 // Deletar comentários
 CommentRouter.delete("/comment", CommentController.deleteComment);
+
+export default CommentRouter;

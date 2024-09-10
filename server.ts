@@ -2,6 +2,7 @@ import express from "express";
 
 import UserRouter from "./routes/UserRoutes";
 import PostRouter from "./routes/PostRoutes";
+import CommentRouter from "./routes/CommentRoutes";
 
 const app = express();
 app.use(express.json());
