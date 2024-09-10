@@ -1,7 +1,6 @@
 import express from "express";
 
 import UserRouter from "./routes/UserRoutes";
-import PostRouter from "./routes/PostRoutes";
 
 const app = express();
 app.use(express.json());
